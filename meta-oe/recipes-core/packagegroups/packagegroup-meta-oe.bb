@@ -949,7 +949,7 @@ RDEPENDS:packagegroup-meta-oe-support:remove:mipsarch = "gperftools"
 RDEPENDS:packagegroup-meta-oe-support:remove:riscv64 = "gperftools uim"
 RDEPENDS:packagegroup-meta-oe-support:remove:riscv32 = "gperftools uim"
 RDEPENDS:packagegroup-meta-oe-support:remove:powerpc = "ssiapi tbb"
-RDEPENDS:packagegroup-meta-oe-support:remove:powerpc64le = "ssiapi"
+RDEPENDS:packagegroup-meta-oe-support:remove:powerpc64le = "libcereal ssiapi"
 RDEPENDS:packagegroup-meta-oe-support:remove:libc-musl = "pcp"
 RDEPENDS:packagegroup-meta-oe-support:remove:libc-musl:powerpc = "gsl"
 
